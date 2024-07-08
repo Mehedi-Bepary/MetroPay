@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}*
+[background="Screenshot 2023-09-17 003118.png"]{
+    top:-200px;
+    left: -200px;
+}
+.logo{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    height: 5px;
+    width: 10px;
+    display: inline;
+}
+img{
+    height: 90px;
+    width: 70px;
+    color: #581600be;
+}
+.navbar{
+    height: 60px;
+    
+    background-color: #5b335599;
+   border-radius:14px;
+}
+.menu ul{
+   
+    display: inline-block;
+
+}
+ul{
+    align-items: center;
+    list-style: none;
+    display: inline;
+}
+ ul{
+    float: right;
+    height: 10px;
+    width: auto;
+    background-color: hsla(295, 61%, 25%, 0.426);
+    border: 0px;
+    
+    box-sizing: border-box;
+}
+.abc{
+    display: inline;
+
+}
+.menu{
+    display:inline-block;
+ 
+}
+.li :hover{
+    background-color: rgba(27, 79, 118, 0.69);
+}

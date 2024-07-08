@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>  
+    
+    <style>
+        *{
+    margin:0px;
+    padding: 0px;
+    border: 0px;
+}
+body {
+    background-image: url('Screenshot 2023-09-17 003118.png'); /* Replace 'background.jpg' with your image path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: #333333; /* Text color for better readability */
+}
+nav{
+    height: 60px;
+    background-color: hsla(207, 67%, 13%, 0.512);
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.logo{
+    display: inline;
+    background-image: url('default.png');
+    padding: 0px 0px;
+    z-index: 100;
+}
+.logo img{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    height: 60px;
+    width: 100px;
+}
+p{
+    display: inline-block;
+}
+nav ul{
+    padding-top: 5px;
+    float: right;
+    text-decoration: none;
+   
+    list-style: none;
+}
+ul li{
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 5px 30px;
+   
+}
+.logo button{
+    padding: 5px;
+    border-radius: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 35px;
+    width: 80px;
+}
+button{
+    box-shadow: 0 0 5px cyan,0 0 25px cyan;
+
+}
+button:hover{
+    box-shadow: 0 0 5px cyan,0 0 25px cyan,0 0 50px cyan,0 0 100px cyan,0 0 200px cyan;
+
+}
+
+.r-box{
+    display: inline-block;
+    margin: 50px;
+    margin-left: 600px;
+    margin-right: 100px;
+    margin-top: 30px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+   
+    
+   
+    height: 500px;
+    width: 350px;
+    background-color: rgba(214, 172, 248, 0.933);
+}
+h3{
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-top: 5px;
+    padding-top: 25px;
+    text-align: center;
+    font-size: x-large;
+    font-family: serif;
+}
+  
+ 
+.r-box button{
+    padding: 5px;
+    box-sizing: border-box;
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 45px;
+    width: 120px;
+    margin-left: 120px;
+   border-radius: 10px;
+   
+    
+}
+img{
+    border-radius: 10px;
+    padding-top: 20px;
+    border-color: rgba(0, 0, 0, 0.697);
+    padding-left: 120px;
+    height: 150px;
+    width: 100px;
+  padding-bottom: 20px;
+}
+td{
+    padding-left: 40px;
+    font-style: italic;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+
+
+}
+.r-box button{
+    margin-top: 50px;
+}
+.Recharge{
+    text-align: center;
+}
+.Recharge p{
+    margin-left: 200px;
+    color: rgba(31, 20, 29, 0.73);
+    background-color: rgb(5, 215, 252);
+     padding: 10px;
+    border-radius: 5px;
+   
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 0cqh;
+}
+.Recharge ul{
+    float: right;
+    padding-right: 200px;
+}
+.Recharge button{
+    padding: 5px;
+    border-radius: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 35px;
+    width: 80px;
+}
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #e74c3c; /* Highlight color on hover */
+}
+/* About Us Section Styles */
+#about-us {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text readability */
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#about-us h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#about-us p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    line-height: 1.6; /* Improved readability with some line spacing */
+}
+
+#about-us pre {
+    font-size: 21px;
+}
+
+#about-us h2 {
+    font-size: 28px;
+    margin-top: 30px;
+}
+
+/* Team Member Styles */
+.official {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(251, 2, 2, 0.5);
+}
+
+.official h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.official p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+/* Footer Styles (similar to other pages) */
+#contact {
+    background-color: #9cf6c1; /* Section background color */
+    color: #01411b;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+</style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <p><img src="default.png"></p>
+      
+        <ul>
+            <li><a href="navbar.html"><button>Home</button></a></li>
+            <li><a href="Account.html"><button>Profile</button></a></li>
+            
+            <li><a href="help.html"><button>Help</button></a></li>
+            <li><a href="about.html"><button>About Us</button></a></li>
+        </ul>
+
+        </div>
+        
+    </nav>
+    <section id="about-us">
+        <h1>About Us</h1>
+        <p>Welcome to Metro Railway Ticketing!</p>
+        <p>We are your trusted partner for booking train tickets and planning memorable railway journeys. Our platform is designed to simplify the process of finding, booking, and managing your train travel.</p>
+        
+        <h2>Our Mission</h2>
+        <p>At Railway Ticketing, our mission is to provide passengers with a hassle-free and enjoyable train travel experience. We are dedicated to: </p>
+        <pre>
+            Offering a user-friendly interface for booking tickets. 
+            Ensuring real-time availability and competitive prices. 
+            Providing comprehensive information on train schedules, routes, and stations. 
+            Delivering outstanding customer service and support. 
+        </pre>
+        
+        <h2>Meet Our Team</h2>
+        <p>Our team is composed of dedicated professionals who are passionate about train travel:</p>
+        <div class="official">
+            <h3>Sean Marsh</h3>
+            <p>Founder & CEO</p>
+        </div>
+        <div class="official">
+            <h3>Steve Smith</h3>
+            <p>Chief Operating Officer</p>
+        </div>
+        <div class="official">
+            <h3>Michael Johnson</h3>
+            <p>Chief Technology Officer</p>
+        </div>
+
+        <h2>Why Choose Us?</h2>
+        <p>There are several reasons to choose Railway Ticketing for your train travel needs:</p>
+        <pre>
+             Wide Coverage: We cover a vast network of railways, allowing you to 
+             book tickets for numerous destinations. 
+             Easy Booking: Our booking process is straightforward and can be completed
+              in just a few clicks. 
+             Customer-Centric: We prioritize customer satisfaction and are committed
+              to addressing your queries and concerns. 
+             Secure Payment: Your payment information is kept secure and encrypted
+              for your peace of mind. 
+    </pre>
+</section>
+</body>
+</html>
